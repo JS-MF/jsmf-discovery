@@ -1,0 +1,32 @@
+{
+  "name": "jsmf-discovery",
+  "version": "1.0.0",
+  "description": "A discovery tool that discovers models, metamodel from data and existing models",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.list.lu:jsottet/jsmf-discovery.git"
+  },
+  "keywords": [
+    "model",
+    "discovery",
+    "inference",
+    "data",
+    "analytics"
+  ],
+  "author": "Jean-Sebastien Sottet <jean-sebastien.sottet@list.lu> (http://www.list.lu)",
+  "license": "MIT",
+   "dependencies": {
+    "lodash": "^4.1.0",
+    "jsmf-core": "git+ssh://git@git.list.lu:jsmf/jsmf-core.git#0.9.0"
+  }, ,
+  "devDependencies": {
+    "should": "^7.1.1",
+    "mocha": "^2.5.3",
+    "eyes": "^0.1.8",
+    "jsmf-magellan": "git+ssh://git@git.list.lu:jsmf/jsmf-magellan.git#0.5.0"
+  }
+}
