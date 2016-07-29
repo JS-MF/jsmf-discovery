@@ -69,7 +69,7 @@ function archetypalDiscovery(name,element, metaElement) {
                 })
                 .value();
     
-    if(JSMF.isJSMFElement(metaElement)) {
+    if(JSMF.isJSMFClass(metaElement)) {
            updateClass(metaElement,result)
     }
     
