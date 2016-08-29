@@ -25,7 +25,7 @@ const Class = JSMF.Class
 const Model = JSMF.Model
 
 /** Extracts a metamodel (class) from an specific (archetypal) instance
-*  @param {String} name : Name of the new Class
+*  @param {String} name : Name of the new discovered Class
 *  @param {Object} element : the object either JSMF or other archetype of the system.
    @param metaElement {Class} (optional): a metaClass that can be updated according to the element
 */

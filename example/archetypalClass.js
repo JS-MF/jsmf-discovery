@@ -51,7 +51,6 @@ function CreateAnInstanceFromFlexibleClass() {
       console.log(res);
 }
 
-
 function KenedyLady() {
     
 const Person = Class.newInstance('Person', [],
@@ -85,7 +84,7 @@ console.log(jackie);
 const res = discoverer.archetypalDiscovery('Person',jackie,Person)
     console.log(res);
    // console.log('Before ', jackie.conformsTo().attributes)
-   // discoverer.updateClass(Person,res)
+  //  discoverer.updateClass(Person,res)
     console.log('After updated conformsTo ', jackie.conformsTo().attributes)
 }
 
