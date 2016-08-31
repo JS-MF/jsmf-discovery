@@ -1,7 +1,18 @@
 /**
- * @license
- * ©2015-2016 Luxembourg Institute of Science and Technology All Rights Reserved
- * JavaScript Modelling Framework (JSMF)
+ * The MIT License (MIT)
+ *
+ * Copyright ©2015-2016 Luxembourg Institute of Science and Technology All Rights Reserved
+ * 
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
  *
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
  * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
@@ -24,7 +35,7 @@ const JSMF = require('jsmf-core')
 const Class = JSMF.Class
 const Model = JSMF.Model
 
-/** Extracts a metamodel (class) from an specific (archetypal) instance
+/** Extracts a metamodel (class) from an specific (archetypal) instance and update meta class if provided
 *  @param {String} name : Name of the new discovered Class
 *  @param {Object} element : the object either JSMF or other archetype of the system.
    @param metaElement {Class} (optional): a metaClass that can be updated according to the element
